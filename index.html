@@ -347,37 +347,7 @@
 </div>
 
 			</main>
-			<script>
-  var div = document.createElement('div');
-  div.className = 'fb-customerchat';
-  div.setAttribute('page_id', '100665718509655');
-  div.setAttribute('ref', 'b64:V2VsY29tZSEgRG8geW91IHdhbnQgbW9yZSBpbmZvcm1hdGlvbj8=');
-  document.body.appendChild(div);
-  window.fbMessengerPlugins = window.fbMessengerPlugins || {
-    init: function () {
-      FB.init({
-        appId            : '1678638095724206',
-        autoLogAppEvents : true,
-        xfbml            : true,
-        version          : 'v7.0'
-      });
-    }, callable: []
-  };
-  window.fbAsyncInit = window.fbAsyncInit || function () {
-    window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
-    window.fbMessengerPlugins.init();
-  };
-  setTimeout(function () {
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) { return; }
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  }, 0);
-</script>
+			<script> window.fbMessengerPlugins = window.fbMessengerPlugins || { init : function() { FB.init({ appId: "1678638095724206", xfbml: true, version: "v7.0" }); }, callable : [] }; window.fbAsyncInit = window.fbAsyncInit || function() { window.fbMessengerPlugins.callable.forEach( function( item ) { item(); } ); window.fbMessengerPlugins.init(); }; setTimeout( function() { (function(d, s, id){ var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk')); }, 0); </script> <div class="fb-send-to-messenger test-fb-send-to-messenger" messenger_app_id="1678638095724206" page_id="100665718509655" data-ref="" color="blue" size="large"> </div>
 			<footer id="footer" class="l-f cf">
 
 				<div class="section-wrapper cf">
